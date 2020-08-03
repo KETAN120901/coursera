@@ -13,7 +13,16 @@ h2{
 		padding-left: 15px;
 		padding-right: 15px;
 		border: 1px solid black;
+		
+	}
+	#Chicken{
 		background-color: brown;
+	}
+	#Beef{
+		background-color: yellow;
+	}
+	#Sushi{
+		background-color:blue; 
 	}
 	.container{
 		max-width: 95%;
