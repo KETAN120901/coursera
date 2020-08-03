@@ -1,0 +1,111 @@
+*{
+	box-sizing: border-box;
+	font-family:sans-serif;
+}
+
+h1{
+	text-align: center;
+}
+@media (min-width: 992px){
+	.col-lg-4{
+		float: left;
+		width: 33.33%;
+		
+	}
+	h2{
+		float: right;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		padding-left: 10px;
+		padding-right: 10px;
+		border: 1px solid black;
+		background-color: brown;
+	}
+	.col-lg-4 > div{
+		max-width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		border: 1px solid black;
+		background-color: grey;
+	}
+	.col-lg-4 > div >div{
+		clear: right;
+		padding: 10px;
+	}
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6{
+		float: left;
+		width: 50%;
+		
+	}
+	.col-md-12{
+		float: left;
+		width: 100%;
+		clear: both;
+		margin-top: 5%;
+	}
+	h2{
+		float: right;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		padding-left: 10px;
+		padding-right: 10px;
+		border: 1px solid black;
+		background-color: brown;
+	}
+	.col-md-6 > div{
+		max-width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		border: 1px solid black;
+		background-color: grey;
+	}
+	.col-md-6 > div >div{
+		clear: right;
+		padding: 10px;
+	}
+	.col-md-12 > div{
+		max-width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+		border: 1px solid black;
+		background-color: grey;
+	}
+	.col-md-12 > div >div{
+		clear: right;
+		padding: 10px;
+	}
+
+	
+}
+@media (max-width: 767px){
+	.col-sm-12{
+		float: left;
+		width: 100;
+		margin-bottom: 5%;
+		
+	}
+	h2{
+		float: right;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		padding-left: 10px;
+		padding-right: 10px;
+		border: 1px solid black;
+		background-color: brown;
+	}
+	.col-sm-12 > div{
+		max-width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		border: 1px solid black;
+		background-color: grey;
+	}
+	.col-sm-12 > div >div{
+		clear: right;
+		padding: 10px;
+	}
+}
