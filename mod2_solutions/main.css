@@ -10,11 +10,17 @@ h2{
 		float: right;
 		margin-top: 0px;
 		margin-bottom: 0px;
-		padding-left: 10px;
-		padding-right: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
 		border: 1px solid black;
 		background-color: brown;
 	}
+	.container{
+		max-width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
 
 .container > div > div >div{
 		clear: right;
@@ -28,7 +34,7 @@ h2{
 		
 	}
 	.container > div > div{
-		max-width: 90%;
+		max-width: 95%;
 		margin-left: auto;
 		margin-right: auto;
 		border: 1px solid black;
@@ -48,17 +54,17 @@ h2{
 		float: left;
 		width: 100%;
 		clear: both;
-		margin-top: 5%;
+		margin-top: 2.5%;
 	}
 	.col-md-6 > div{
-		max-width: 90%;
+		max-width: 95%;
 		margin-left: auto;
 		margin-right: auto;
 		border: 1px solid black;
 		background-color: grey;
 	}
 	.col-md-12 > div{
-		max-width: 95%;
+		max-width: 97.5%;
 		margin-left: auto;
 		margin-right: auto;
 		border: 1px solid black;
@@ -72,11 +78,11 @@ h2{
 	.col-sm-12{
 		float: left;
 		width: 100;
-		margin-bottom: 5%;
+		margin-bottom: 2.5%;
 		
 	}
 	.container > div > div{
-		max-width: 90%;
+		max-width: 95%;
 		margin-left: auto;
 		margin-right: auto;
 		border: 1px solid black;
