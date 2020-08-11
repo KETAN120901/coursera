@@ -4,7 +4,7 @@
 	
 }
 h2{
-	padding: 10px 0px 15px 0px;
+	padding: 10px 0px 0px 0px;
 }
 .jumbotron{
 	
@@ -17,10 +17,13 @@ h2{
 }
 .row > div{
 	background-color: green;
+	margin-top: 20px;
 }
-h1{
+.navbar-brand{
 	max-width: 200px;
 	display: inline-block;
+	font-size: 2em;
+    
 }
 button{
 	float: right;
